@@ -31,8 +31,7 @@ Aspire AI Chat is a full-stack chat sample that combines modern technologies to 
 
 ### Running the Application
 
-Run the [AIChat.AppHost](AIChat.AppHost) project. This project uses  
-[.NET Aspire](https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview) to run the application in a container.
+Run the [AIChat.AppHost](AIChat.AppHost) project. This project uses [.NET Aspire](https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview) to run the application in a container.
 
 ### Configuration
 
