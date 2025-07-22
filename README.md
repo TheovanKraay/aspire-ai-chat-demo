@@ -1,10 +1,10 @@
 # Aspire AI Chat
 
-Aspire AI Chat is a full-stack chat sample that combines modern technologies to deliver a ChatGPT-like experience.
+Aspire AI Chat is a full-stack chat sample that combines modern technologies to deliver a ChatGPT-like experience, backed by Azure Cosmos DB for chat storage and Ollama for local inference. This sample showcases the capabilities of [**Aspire**](https://learn.microsoft.com/dotnet/aspire/) for cloud-native development, debugging, orchestration, and observability.
 
 # What is Aspire?
 
-[Aspire](https://learn.microsoft.com/dotnet/aspire/) is a new cloud-native stack that streamlines the development, orchestration, and observability of distributed applications. With Aspire, you can simply start debugging, and it will dynamically spin up containers, configure services, and launch a unified dashboard - complete with full observability and integrated debugging support. In this sample, Aspire runs the entire AI chat system locally (including the backend API, Azure Cosmos DB emulator, Ollama, and React frontend) exactly as it would run in production. No other framework delivers Aspire’s seamless "F5 = full cloud-native stack + observability + debug" workflow. It enables a tightly integrated, cloud-native development model that makes working with microservices feel as straightforward as building a monolith.
+[Aspire](https://learn.microsoft.com/dotnet/aspire/) is a new cloud-native stack that streamlines the development, orchestration, and observability of distributed applications. With Aspire, you can simply start debugging, and it will dynamically spin up containers, configure services, and launch a unified dashboard - complete with full observability and integrated debugging support. In this sample, Aspire runs the entire application architecture locally (including the backend API, Azure Cosmos DB emulator, Ollama, and React frontend) exactly as it would run in production. No other framework delivers Aspire’s seamless "F5 = full cloud-native stack + observability + debug" workflow. It enables a tightly integrated, cloud-native development model that makes working with microservices feel as straightforward as building a monolith.
 
 ## High-Level Overview
 
@@ -32,8 +32,7 @@ Aspire AI Chat is a full-stack chat sample that combines modern technologies to 
 ### Running the Application
 
 Run the [AIChat.AppHost](AIChat.AppHost) project. This project uses  
-[.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview)  
-to run the application in a container.
+[.NET Aspire](https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview) to run the application in a container.
 
 ### Configuration
 
